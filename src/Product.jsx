@@ -1,11 +1,12 @@
 import "./Product.css";
 
-function Product(props) {
-    console.log(props);
+function Product({title, price, features}) {
     return (
         <div className="Product"> 
-            <h3> Product Title</h3>
-            <h5> Product Description</h5>
+            <h3>{title}</h3>
+            <h5> price: {price}</h5>
+            <p>{features}</p>
+            
         </div>
     );
 }
