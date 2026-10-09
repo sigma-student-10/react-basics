@@ -1,5 +1,6 @@
-function printHello() {
+function handleClick(event) {
     console.log("Hello");
+    console.log(event);
 }
 
 function printBye() {

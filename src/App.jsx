@@ -1,14 +1,12 @@
 import "./App.css";
 import Button from "./Button";
+import Form from "./Form";
 
 
 function App() {
   return(
     <>
-    
-    <Button />
-    <h1>My first React App</h1>
-    
+    <Form />
     
     </>
   );
